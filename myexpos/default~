@@ -1,0 +1,122 @@
+stage 14
+
+load --idle /home/user/myexpos/expl/expl_progs/idle14.xsm
+load --init /home/user/myexpos/expl/expl_progs/s14_init.xsm
+load --module 5 /home/user/myexpos/spl/spl_progs/stage14_mod_5.xsm
+load --int=10 /home/user/myexpos/spl/spl_progs/stage14_int10.xsm
+load --module 7 /home/user/myexpos/spl/spl_progs/s14_bootmodule.xsm
+load --os /home/user/myexpos/spl/spl_progs/stage14os_startup.xsm
+load --timer
+
+stage 13
+
+load --idle /home/user/myexpos/expl/expl_progs/s12_assg_idle.xsm
+load --init /home/user/myexpos/expl/expl_progs/s14_init.xsm
+load --module 5 /home/user/myexpos/spl/spl_progs/stage14_mod_5.xsm
+load --int=10 /home/user/myexpos/spl/spl_progs/stage14_int10.xsm
+load --module 7 /home/user/myexpos/spl/spl_progs/s14_assg_boot.xsm
+load --os /home/user/myexpos/spl/spl_progs/stage14os_startup.xsm
+
+stage 15
+load --idle /home/user/myexpos/expl/expl_progs/s15/idle.xsm
+load --init /home/user/myexpos/expl/expl_progs/s15/odd.xsm
+load --module 5 /home/user/myexpos/spl/spl_progs/s15/mod5.xsm
+load --int=10 /home/user/myexpos/spl/spl_progs/s15/int10.xsm
+load --module 7 /home/user/myexpos/spl/spl_progs/s15/s15_boot.xsm
+load --module 4 /home/user/myexpos/spl/spl_progs/s15/mod4.xsm
+load --module 0 /home/user/myexpos/spl/spl_progs/s15/mod0.xsm
+load --int=7 /home/user/myexpos/spl/spl_progs/s15/int7.xsm
+load --int=timer /home/user/myexpos/spl/spl_progs/s15/timer.xsm
+load --os /home/user/myexpos/spl/spl_progs/s15/os_startup.xsm
+
+
+
+stage 16
+load --idle /home/user/myexpos/expl/expl_progs/s15/idle.xsm
+load --init /home/user/myexpos/expl/expl_progs/s16/gcd.xsm
+load --module 5 /home/user/myexpos/spl/spl_progs/s16/a/mod5.xsm
+load --int=10 /home/user/myexpos/spl/spl_progs/s15/int10.xsm
+load --module 7 /home/user/myexpos/spl/spl_progs/s16/a/mod7.xsm
+load --module 4 /home/user/myexpos/spl/spl_progs/s15/mod4.xsm
+load --module 0 /home/user/myexpos/spl/spl_progs/s15/mod0.xsm
+load --int=7 /home/user/myexpos/spl/spl_progs/s15/int7.xsm
+load --int=6 /home/user/myexpos/spl/spl_progs/s16/a/int6.xsm
+load --int=console /home/user/myexpos/spl/spl_progs/s16/a/console.xsm
+load --int=timer /home/user/myexpos/spl/spl_progs/s15/timer.xsm
+load --os /home/user/myexpos/spl/spl_progs/s15/os_startup.xsm
+
+
+stage 17
+load --idle /home/user/myexpos/expl/expl_progs/s15/idle.xsm
+load --init /home/user/myexpos/expl/expl_progs/s16/gcd.xsm
+load --module 5 /home/user/myexpos/spl/spl_progs/s16/a/mod5.xsm
+load --int=10 /home/user/myexpos/spl/spl_progs/s15/int10.xsm
+load --module 1 /home/user/myexpos/spl/spl_progs/s17/mod1.xsm
+load --module 2 /home/user/myexpos/spl/spl_progs/s17/mod2.xsm
+load --module 7 /home/user/myexpos/spl/spl_progs/s17/mod7.xsm
+load --module 4 /home/user/myexpos/spl/spl_progs/s15/mod4.xsm
+load --module 0 /home/user/myexpos/spl/spl_progs/s15/mod0.xsm
+load --int=7 /home/user/myexpos/spl/spl_progs/s15/int7.xsm
+load --int=9 /home/user/myexpos/spl/spl_progs/s17/int9.xsm
+load --int=6 /home/user/myexpos/spl/spl_progs/s16/a/int6.xsm
+load --int=console /home/user/myexpos/spl/spl_progs/s16/a/console.xsm
+load --int=timer /home/user/myexpos/spl/spl_progs/s15/timer.xsm
+load --os /home/user/myexpos/spl/spl_progs/s15/os_startup.xsm
+
+stage 17 assg
+load --exec /home/user/myexpos/expl/expl_progs/s17/odd.xsm
+
+
+load --idle /home/user/myexpos/expl/expl_progs/s15/idle.xsm
+load --init /home/user/myexpos/expl/expl_progs/s17/init.xsm
+load --module 5 /home/user/myexpos/spl/spl_progs/s16/a/mod5.xsm
+load --int=10 /home/user/myexpos/spl/spl_progs/s15/int10.xsm
+load --module 1 /home/user/myexpos/spl/spl_progs/s17/mod1.xsm
+load --module 2 /home/user/myexpos/spl/spl_progs/s17/mod2.xsm
+load --module 7 /home/user/myexpos/spl/spl_progs/s17/mod7.xsm
+load --module 4 /home/user/myexpos/spl/spl_progs/s15/mod4.xsm
+load --module 0 /home/user/myexpos/spl/spl_progs/s15/mod0.xsm
+load --int=7 /home/user/myexpos/spl/spl_progs/s15/int7.xsm
+load --int=9 /home/user/myexpos/spl/spl_progs/s17/int9.xsm
+load --int=6 /home/user/myexpos/spl/spl_progs/s16/a/int6.xsm
+load --int=console /home/user/myexpos/spl/spl_progs/s16/a/console.xsm
+load --int=timer /home/user/myexpos/spl/spl_progs/s15/timer.xsm
+load --os /home/user/myexpos/spl/spl_progs/s15/os_startup.xsm
+
+
+stage 18
+load --int=disk /home/user/myexpos/spl/spl_progs/s18/disk.xsm
+load --idle /home/user/myexpos/expl/expl_progs/s15/idle.xsm
+load --init /home/user/myexpos/expl/expl_progs/s17/init.xsm
+load --module 5 /home/user/myexpos/spl/spl_progs/s16/a/mod5.xsm
+load --int=10 /home/user/myexpos/spl/spl_progs/s15/int10.xsm
+load --module 1 /home/user/myexpos/spl/spl_progs/s17/mod1.xsm
+load --module 2 /home/user/myexpos/spl/spl_progs/s17/mod2.xsm
+load --module 7 /home/user/myexpos/spl/spl_progs/s18/mod7.xsm
+load --module 4 /home/user/myexpos/spl/spl_progs/s18/mod4.xsm
+load --module 0 /home/user/myexpos/spl/spl_progs/s18/mod0.xsm
+load --int=7 /home/user/myexpos/spl/spl_progs/s15/int7.xsm
+load --int=9 /home/user/myexpos/spl/spl_progs/s18/int9.xsm
+load --int=6 /home/user/myexpos/spl/spl_progs/s16/a/int6.xsm
+load --int=console /home/user/myexpos/spl/spl_progs/s16/a/console.xsm
+load --int=timer /home/user/myexpos/spl/spl_progs/s15/timer.xsm
+load --os /home/user/myexpos/spl/spl_progs/s15/os_startup.xsm
+
+stage 19
+load --int=disk /home/user/myexpos/spl/spl_progs/s18/disk.xsm
+load --idle /home/user/myexpos/expl/expl_progs/s15/idle.xsm
+load --init /home/user/myexpos/expl/expl_progs/s17/init.xsm
+load --module 5 /home/user/myexpos/spl/spl_progs/s16/a/mod5.xsm
+load --int=10 /home/user/myexpos/spl/spl_progs/s15/int10.xsm
+load --module 1 /home/user/myexpos/spl/spl_progs/s19/mod1_pm.xsm
+load --module 2 /home/user/myexpos/spl/spl_progs/s19/mod2_mm.xsm
+load --module 7 /home/user/myexpos/spl/spl_progs/s19/bootmod7.xsm
+load --module 4 /home/user/myexpos/spl/spl_progs/s18/mod4.xsm
+load --module 0 /home/user/myexpos/spl/spl_progs/s18/mod0.xsm
+load --int=7 /home/user/myexpos/spl/spl_progs/s15/int7.xsm
+load --int=9 /home/user/myexpos/spl/spl_progs/s19/int9_s19.xsm
+load --int=6 /home/user/myexpos/spl/spl_progs/s16/a/int6.xsm
+load --exhandler /home/user/myexpos/spl/spl_progs/s19/exceptionhandler.xsm
+load --int=console /home/user/myexpos/spl/spl_progs/s16/a/console.xsm
+load --int=timer /home/user/myexpos/spl/spl_progs/s15/timer.xsm
+load --os /home/user/myexpos/spl/spl_progs/s15/os_startup.xsm

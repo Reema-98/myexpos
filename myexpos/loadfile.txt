@@ -1,0 +1,10 @@
+load --int=10 ../spl/spl_progs/halt.xsm
+load --int=7 ../spl/spl_progs/sample_int7.xsm
+load --exhandler ../spl/spl_progs/halt.xsm
+load --init /home/user/myexpos/expl/expl_progs/s10_assg.xsm
+load --os /home/user/myexpos/spl/spl_progs/s10_os_startup.xsm
+
+
+
+
+

@@ -1,0 +1,15 @@
+int main()
+{
+	decl
+		int a,b,temp;
+	enddecl
+	begin
+	temp=exposcall("Read",-1,a);
+	temp=exposcall("Read",-1,b);
+		
+			temp=exposcall("Write",-2,a);
+			
+		
+		return 0;
+	end
+}

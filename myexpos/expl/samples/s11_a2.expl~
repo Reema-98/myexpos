@@ -1,0 +1,26 @@
+type
+student
+{
+str name;
+int mark;
+}
+endtype
+
+int main()
+{
+
+decl
+student s;
+enddecl
+
+initialize();
+s=alloc();
+s.name="John";
+s.mark=89;
+
+
+
+
+
+
+
